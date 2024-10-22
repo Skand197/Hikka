@@ -32,19 +32,36 @@ h1{
 
 .main_auth_info{
 	width: 100%;
-	height: 200px;
+	height: 340px;
 }
-.main_auth_info div{
+.main_auth_info_div{
 	margin: 20px 0px 20px 100px;
 	float: left;
 	width: 40%;
-	heigth: 160px;
+	height: 300px;
 	border: 2px solid black;
 	border-radius: 30px;
 }
-.main_auth_info .button_login{
+.main_auth_info_div h2{
+	width: 80%;
+	margin: 20px 0px 0px 10%;
+	text-align: center;
+}
+.main_auth_info_div h3{
+	text-align: center;
+}
+.main_auth_info .button_login_div{
+	margin: 20px 0px 20px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.button_login{
 	color: black;
 	border: 2px solid black;
 	border-radius: 90px;
 	text-decoration: none;
+	font-size: 24px;
+	padding: 5px;
 }
